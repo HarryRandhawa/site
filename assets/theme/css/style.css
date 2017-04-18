@@ -447,7 +447,10 @@ p.lead,
   margin-bottom: 2.3125rem; }
 
 .article .lead p, .article .lead ul, .article .lead ol, .article .lead pre, .article .lead blockquote {
-  margin-bottom: 0; }
+	margin-bottom: 0;
+	font-size: 12px;
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
 
 .lead {
   font-size: 1.07rem;
@@ -1915,10 +1918,13 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   vertical-align: top; }
 
 .form-asterisk {
-  font-family: initial;
-  position: absolute;
-  top: -2px;
-  font-weight: normal; }
+	font-family: initial;
+	position: absolute;
+	top: 0px;
+	font-weight: normal;
+	left: 61px;
+	visibility: hidden;
+}
 
 .row-sm-offset {
   margin-left: -0.625rem;
