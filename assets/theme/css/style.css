@@ -658,7 +658,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .mbr-section__container--middle {
   padding-top: 0;
-  padding-bottom: 40px; }
+  padding-bottom: 10px; }
 
 .mbr-section__container--last {
   padding-top: 0;
