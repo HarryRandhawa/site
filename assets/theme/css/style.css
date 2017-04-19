@@ -1,5 +1,7 @@
 .container {
-  position: relative; }
+	position: relative;
+	visibility: visible;
+}
 
 .btn {
   margin-bottom: 0.5rem; }
