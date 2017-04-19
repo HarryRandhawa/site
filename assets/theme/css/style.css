@@ -455,8 +455,10 @@ p.lead,
 }
 
 .lead {
-  font-size: 1.07rem;
-  font-weight: 300; }
+	font-size: 1.07rem;
+	font-weight: 300;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
   .lead a {
     font-family: "Lora";
     font-style: italic;
