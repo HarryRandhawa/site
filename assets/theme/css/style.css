@@ -452,6 +452,7 @@ p.lead,
 	margin-bottom: 0;
 	font-size: 12px;
 	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+	text-align: left;
 }
 
 .lead {
