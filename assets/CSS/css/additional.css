@@ -51,6 +51,47 @@ h6,
 .mbr-footer .mbr-contacts strong {
   font-family: 'Montserrat', sans-serif;
 }
+
+
+.layer_side_ruler {
+  background: url('images/bg_side_ruler.png') repeat-y top left;
+  position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    width:12px;
+    height:100%;
+    z-index:1;
+}
+
+.layer_grid {
+  background: url('images/bg_grid.png') top center;
+  position: absolute;
+  top:0;
+  bottom:0; 
+  right:0;
+  left:0;
+  width: 100%;
+  opacity: 0.02;
+  z-index:0;
+  min-height:2100px;
+}
+
+.side_ruler_pointer {
+  position:absolute;
+  top:10px;
+  left:15px;
+  z-index:1;
+}
+
+.btn:hover, input.wpcf7-submit:hover {
+  -ms-transform: scale(1.1,1.1); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+    transform: scale(1.1,1.1);
+    color:#fff;
+    font-weight:400;
+}
+
 .btn-sm,
 .lead a,
 .lead blockquote,
@@ -702,9 +743,9 @@ h6,
 
 
 #content1-28 H3 {
-  font-family: 'Ubuntu', sans-serif;
-  text-align: left;
-  font-size: 18px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	text-align: left;
 }
 #content1-3x P {
   font-family: 'Ubuntu', sans-serif;
