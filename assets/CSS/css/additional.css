@@ -557,9 +557,10 @@ h6,
   font-size: 14px;
 }
 #content1-1r P {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 14px;
-  color: #949494;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
 }
 #content1-1b UL {
   font-size: 13px;

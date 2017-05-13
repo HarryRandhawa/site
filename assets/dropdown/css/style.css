@@ -305,3 +305,16 @@
 .col-xs-12.lead li {
 	font-size: 13px;
 }
+#content1-1r .container .row .col-xs-12.lead p em {
+	color: #666;
+	font-weight: normal;
+}
+maintext {
+	font-family: Arial, Helvetica, sans-serif;
+}
+Software {
+	font-family: Verdana, Geneva, sans-serif;
+}
+mainheader {
+	font-family: "Lucida Console", Monaco, monospace;
+}
